@@ -81,7 +81,7 @@ public class RubricTest {
 		
 		@Test
 	    public void testToString(){
-			String desired = "Rubric [meets=10, below=3, exceeds=10, target=50, measurementId=1]";
+			String desired = "Rubric [below=3, meets=10, exceeds=10, target=50, measurementId=1]";
 			//test1.setOutcomeId(2);
 			Rubric tester = new Rubric(1,3,10,10,50);
 			

@@ -53,8 +53,8 @@ public class Rubric {
 	
 	@Override
 	public String toString() {
-		return "Rubric [meets=" + meets + ", below="
-				+ below + ", exceeds=" + exceeds + ", target="
+		return "Rubric [below=" + below + ", meets="
+				+ meets + ", exceeds=" + exceeds + ", target="
 				+ target + ", measurementId=" + measurementId +"]";
 	}
 	@Override
